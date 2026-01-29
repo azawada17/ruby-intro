@@ -2,6 +2,8 @@
 # is the same as where this file is located and then run:
 # ruby 3-arrays.rb
 
+# arrays are lists of things 
+
 # EXERCISE
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one

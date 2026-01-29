@@ -3,7 +3,36 @@
 # ruby 4-hashes.rb
 
 # Hashes are lists of *key-value pairs*
+profile = {
+  "name" => "Adrian",
+  "location" => "Elgin",
+  "status" => "Student"
+}
+puts profile 
 
 # Accessing data from the hash
+name = profile["name"]
+puts "Hello, #{name}"
+
+profile["age"] = 29
+puts profile
+
+profile["name"] = "Adrian Z"
+puts profile
 
 # More Complex Hashes
+profile["location"] = {"city" => "Elgin", "state" => "IL"}
+puts profile
+
+puts profile["location"]["state"]
+
+timeline = [
+  {"status" => "Student", "occured_at" => "8:30pm"},
+  {"status" => "Reading", "occured_at" => "10:30pm"},
+  {"status" => "Sleeping", "occured_at" => "12:30am"}
+] 
+
+profile["timeline"] = timeline 
+puts profile
+puts "Right now:"
+puts profile["timeline"][0]["status"]

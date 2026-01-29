@@ -3,13 +3,53 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+true
+false
 
 # Boolean Expressions
+puts 3 > 2 
+puts 3 < 2
+puts 3 == 2
+puts 3 != 2
+puts 15 == (3 * 5)
 
 # If Conditional Logic
+if 3 > 2 
+  puts "math works!" 
+  
+end
+
+if 3 <= 2 
+  puts "yikes!"
+end
 
 # If/Else Conditional Logic
+if 3 > 2 
+  puts "math works!" 
+else
+  puts "yikes!"
+end
 
 # Elsif Conditional Logic
+home_team = 8
+away_team = 7
+
+if home_team > away_team
+  puts "We Won!!!"
+elsif 
+  home_team == away_team
+  puts "ok...fine...we tied"
+else 
+  puts "Boo...We Lost :("
+end
 
 # Combining Expressions
+  # || = OR
+  # && = AND
+
+temp = 8
+condition = "sunny"
+
+if temp > 29 || condition = "sunny"
+    puts "today is tolerable"
+end
